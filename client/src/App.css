@@ -1,0 +1,104 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  /* font-size: 100px; */
+  /* color: #2c3e50; */
+  font-weight: 500;
+  top: 0;
+  margin: 0;
+  padding: 2rem 0;
+  padding-top: 2rem;
+  position: sticky;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3rem;
+  box-shadow: 0 7px 2rem #ea5753;
+  background: rgba(234, 87, 83, 0.7);
+  height: fit-content;
+
+}
+
+input {
+  font-size: 20px;
+  color: #6c6777;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #2c2b2b;
+  padding: 5px;
+  background-color:transparent;
+}
+
+.task {
+  background-color: rgba(234, 87, 83, 0.7);
+  padding: 15px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.task span {
+  color: #FFFFFF;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button.selected {
+  color: #FFF;
+  background-color: rgba(234, 87, 83, 0.7);
+}
+
+.button.clear {
+  float: right;
+  color: #FFF;
+  background-color: #ee1630;
+  width: 170px;
+}
+
+.container {
+  width: 40vw;
+  padding: 3rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+  border-radius: 3rem;
+  background: linear-gradient(to right bottom, rgba(255, 184, 142, 0.44), rgba(255, 255, 255, 0.5));
+}
